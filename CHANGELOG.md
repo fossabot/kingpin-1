@@ -1,3 +1,13 @@
+## Version 0.5.0
+  * #450: Allow NULL object types for the Scaling config ([@diranged])
+  * #447: Paginate the IAM get_all_entities() method call ([@diranged]) 
+  * #445: Handle Spotinst list_groups() properly when no groups exist in an account ([@diranged])
+  * #444: Support default parameters in Cloudformation templates. ([@swaggy])
+  * #443: Typo - capacity, not compute ([@diranged])
+  * #442: Use the supplied Target value from Spotinst instead of None. ([@diranged])
+  * #441: Bugfix - 'target' is under 'capacity', not 'compute' ([@diranged])
+  * #440: A few misc timeout and comparison fixes ([@diranged])
+
 ## Version 0.4.1
  * #435: Pass Kingpin ECS actor ENV vars to task definition ([@diranged])
  * #434: SYSTEMS-957: Support NoEcho Parameters in CloudFormation stacks. ([@diranged])
